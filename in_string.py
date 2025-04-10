@@ -1,4 +1,5 @@
 def check_vowels():
+    # Código a implementar utilizando input.
 nombre = input("Ingrese un nombre: ")
 nombre = nombre.lower()
 vocales = ['a', 'e', 'i', 'o', 'u']
