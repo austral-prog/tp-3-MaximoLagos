@@ -1,5 +1,4 @@
 def slice_advanced():
-    # Código a implementar utilizando input.
 texto = input("Ingresá una palabra: ")
 texto = texto.lower()
 primeras_tres = texto[0:3]
@@ -14,5 +13,4 @@ ultimas_tres = texto[-3:] if longitud >= 3 else texto
 print(primeras_tres)
 print(letras_medio)
 print(primera_a_cuarta + ultimas_tres)
-# Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
